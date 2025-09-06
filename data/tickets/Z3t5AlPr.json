@@ -1,0 +1,84 @@
+{
+  "id": "Z3t5AlPr",
+  "createdAt": 1757157870062,
+  "status": "closed",
+  "claimedBy": "g1_tKnDWPW4_",
+  "messages": [
+    {
+      "sender": "system",
+      "text": "Тикет создан. Ожидайте модератора…",
+      "ts": 1757157870062
+    },
+    {
+      "sender": "system",
+      "text": "Модератор Модератор-PW4_ подключился.",
+      "ts": 1757157896182
+    },
+    {
+      "sender": "moderator",
+      "text": "йоу",
+      "ts": 1757157909713,
+      "by": "Модератор-PW4_"
+    },
+    {
+      "sender": "moderator",
+      "text": "че по чем",
+      "ts": 1757157911977,
+      "by": "Модератор-PW4_"
+    },
+    {
+      "sender": "user",
+      "text": "да все с кайфом",
+      "ts": 1757157917824
+    },
+    {
+      "sender": "user",
+      "text": "а че",
+      "ts": 1757157919201
+    },
+    {
+      "sender": "moderator",
+      "text": "",
+      "ts": 1757157941640,
+      "by": "Модератор-PW4_",
+      "attachment": {
+        "url": "/uploads/1757157941622-6e9nxX-hlW.png",
+        "name": "2025-09-06_14.08.03.png",
+        "isImage": true,
+        "isText": false
+      }
+    },
+    {
+      "sender": "user",
+      "text": "окак",
+      "ts": 1757157946320
+    },
+    {
+      "sender": "user",
+      "text": "ну норм хатка",
+      "ts": 1757157953753
+    },
+    {
+      "sender": "moderator",
+      "text": "спс бро",
+      "ts": 1757157959960,
+      "by": "Модератор-PW4_"
+    },
+    {
+      "sender": "moderator",
+      "text": "лан давай",
+      "ts": 1757157962512,
+      "by": "Модератор-PW4_"
+    },
+    {
+      "sender": "user",
+      "text": "давай",
+      "ts": 1757157966712
+    },
+    {
+      "sender": "system",
+      "text": "Тикет закрыт.",
+      "ts": 1757157969737
+    }
+  ]
+}

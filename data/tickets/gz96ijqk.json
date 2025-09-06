@@ -1,0 +1,35 @@
+{
+  "id": "gz96ijqk",
+  "createdAt": 1757084713413,
+  "status": "closed",
+  "claimedBy": "8VI9JVf4JT5O",
+  "messages": [
+    {
+      "sender": "system",
+      "text": "Тикет создан. Ожидайте модератора…",
+      "ts": 1757084713413
+    },
+    {
+      "sender": "system",
+      "text": "Модератор Кирилл подключился.",
+      "ts": 1757084715621
+    },
+    {
+      "sender": "moderator",
+      "text": "",
+      "ts": 1757084724020,
+      "by": "Кирилл",
+      "attachment": {
+        "url": "/uploads/1757084724017-suwvy-Pll-.png",
+        "name": "Ð¡Ð½Ð¸Ð¼Ð¾Ðº ÑÐºÑÐ°Ð½Ð° 2025-06-02 162920.png",
+        "isImage": true,
+        "isText": false
+      }
+    },
+    {
+      "sender": "system",
+      "text": "Тикет закрыт.",
+      "ts": 1757084730526
+    }
+  ]
+}

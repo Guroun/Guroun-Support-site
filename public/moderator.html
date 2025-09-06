@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Модератор — Поддержка</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="brand-logo"></div>
+        <div class="brand-title">Модератор</div>
+      </div>
+      <div style="display:flex; gap:8px; align-items:center;">
+        <div id="modName" class="badge">—</div>
+        <a class="btn" href="/">На главную</a>
+      </div>
+    </header>
+
+    <div class="row mod-layout">
+      <div class="card" style="padding:12px;">
+        <div style="font-weight:700; padding: 6px 6px 10px;">Очередь</div>
+        <div id="queue" class="empty">Загрузка…</div>
+        <button id="refresh" class="btn" style="margin-top:10px; width:100%">Обновить</button>
+      </div>
+
+      <div class="card chat">
+        <div class="chat-header">
+          <div>
+            <div style="font-weight:700">Тикет <span id="activeTicket">—</span></div>
+            <div id="status" class="meta" style="color:#a1a7b3">Ожидание…</div>
+          </div>
+          <div class="badge">Модератор</div>
+        </div>
+
+        <div id="log" class="chat-log empty">Выберите тикет</div>
+
+        <form id="form" class="chat-input chat-input-attachments">
+          <input id="input" class="input" placeholder="Ваше сообщение" autocomplete="off" disabled />
+          <input id="fileInput" type="file" style="display:none" />
+          <button id="uploadBtn" type="button" class="btn icon-btn" title="Прикрепить файл">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.5 6.5v9a4.5 4.5 0 1 1-9 0v-10A3.5 3.5 0 0 1 11 2.5a3.5 3.5 0 0 1 3.5 3.5v9a2 2 0 1 1-4 0в-8"/></svg>
+          </button>
+          <button id="send" class="btn btn-accent" disabled>Отправить</button>
+          <button id="closeTicket" class="btn" type="button" disabled>Закрыть тикет</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="dropzone" class="dropzone"><div class="dz-inner"><div class="dz-title">Перетащите файлы сюда</div><div class="dz-sub">и они появятся в чате</div></div></div>
+  <div id="lightbox" class="lightbox"><img alt="preview" /><button class="btn lightbox-close">Закрыть</button></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/moderator.js"></script>
+</body>
+</html> 

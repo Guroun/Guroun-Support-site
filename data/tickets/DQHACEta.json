@@ -1,0 +1,23 @@
+{
+  "id": "DQHACEta",
+  "createdAt": 1757086998739,
+  "status": "closed",
+  "claimedBy": "E2qNOAgRtPjl",
+  "messages": [
+    {
+      "sender": "system",
+      "text": "Тикет создан. Ожидайте модератора…",
+      "ts": 1757086998739
+    },
+    {
+      "sender": "system",
+      "text": "Модератор Кирилл подключился.",
+      "ts": 1757087002833
+    },
+    {
+      "sender": "system",
+      "text": "Тикет закрыт.",
+      "ts": 1757087007037
+    }
+  ]
+}

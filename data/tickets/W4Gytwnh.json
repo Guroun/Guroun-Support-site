@@ -1,0 +1,23 @@
+{
+  "id": "W4Gytwnh",
+  "createdAt": 1757138650878,
+  "status": "closed",
+  "claimedBy": "5qBDfnXhJwjO",
+  "messages": [
+    {
+      "sender": "system",
+      "text": "Тикет создан. Ожидайте модератора…",
+      "ts": 1757138650878
+    },
+    {
+      "sender": "system",
+      "text": "Модератор Модератор-JwjO подключился.",
+      "ts": 1757138655017
+    },
+    {
+      "sender": "system",
+      "text": "Тикет закрыт.",
+      "ts": 1757138657606
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "CiOfXK-T",
+  "createdAt": 1757086555235,
+  "status": "closed",
+  "claimedBy": "E2qNOAgRtPjl",
+  "messages": [
+    {
+      "sender": "system",
+      "text": "Тикет создан. Ожидайте модератора…",
+      "ts": 1757086555235
+    },
+    {
+      "sender": "system",
+      "text": "Модератор Кирилл подключился.",
+      "ts": 1757086564432
+    },
+    {
+      "sender": "system",
+      "text": "Тикет закрыт.",
+      "ts": 1757086631832
+    }
+  ]
+}

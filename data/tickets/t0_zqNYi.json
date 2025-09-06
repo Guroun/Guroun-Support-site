@@ -1,0 +1,94 @@
+{
+  "id": "t0_zqNYi",
+  "createdAt": 1757085245038,
+  "status": "closed",
+  "claimedBy": "E2qNOAgRtPjl",
+  "messages": [
+    {
+      "sender": "system",
+      "text": "Тикет создан. Ожидайте модератора…",
+      "ts": 1757085245038
+    },
+    {
+      "sender": "system",
+      "text": "Модератор Кирилл подключился.",
+      "ts": 1757085254670
+    },
+    {
+      "sender": "moderator",
+      "text": "короче",
+      "ts": 1757085258734,
+      "by": "Кирилл"
+    },
+    {
+      "sender": "moderator",
+      "text": "чекай",
+      "ts": 1757085260725,
+      "by": "Кирилл"
+    },
+    {
+      "sender": "moderator",
+      "text": "",
+      "ts": 1757085275403,
+      "by": "Кирилл",
+      "attachment": {
+        "url": "/uploads/1757085275398-rGqkgyT7qX.png",
+        "name": "Ð¡Ð½Ð¸Ð¼Ð¾Ðº ÑÐºÑÐ°Ð½Ð° 2025-05-23 215733.png",
+        "isImage": true,
+        "isText": false
+      }
+    },
+    {
+      "sender": "moderator",
+      "text": "",
+      "ts": 1757085289233,
+      "by": "Кирилл",
+      "attachment": {
+        "url": "/uploads/1757085289230-0ytrPMm9zN.txt",
+        "name": "eula.txt",
+        "isImage": false,
+        "isText": true
+      }
+    },
+    {
+      "sender": "moderator",
+      "text": "нажми и на то и на то",
+      "ts": 1757085294805,
+      "by": "Кирилл"
+    },
+    {
+      "sender": "moderator",
+      "text": "норм предпросмотр?",
+      "ts": 1757085304717,
+      "by": "Кирилл"
+    },
+    {
+      "sender": "user",
+      "text": "да",
+      "ts": 1757085327825
+    },
+    {
+      "sender": "moderator",
+      "text": "ну все с кайфом",
+      "ts": 1757085336732,
+      "by": "Кирилл"
+    },
+    {
+      "sender": "moderator",
+      "text": "я теперь по сайту",
+      "ts": 1757085344196,
+      "by": "Кирилл"
+    },
+    {
+      "sender": "moderator",
+      "text": "пойду делать сейчас основной сайт",
+      "ts": 1757085355756,
+      "by": "Кирилл"
+    },
+    {
+      "sender": "system",
+      "text": "Тикет закрыт.",
+      "ts": 1757085510336
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "axy2yakk",
+  "createdAt": 1757087318796,
+  "status": "closed",
+  "claimedBy": "dAtrK05vYttl",
+  "messages": [
+    {
+      "sender": "system",
+      "text": "Тикет создан. Ожидайте модератора…",
+      "ts": 1757087318796
+    },
+    {
+      "sender": "system",
+      "text": "Модератор Модератор-Yttl подключился.",
+      "ts": 1757087329142
+    },
+    {
+      "sender": "system",
+      "text": "Тикет закрыт.",
+      "ts": 1757087345997
+    }
+  ]
+}

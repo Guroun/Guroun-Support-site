@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Поддержка сервера — Minecraft</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="brand-logo"></div>
+        <div class="brand-title">Guroun Support</div>
+      </div>
+      <button id="btnModerator" class="btn">Я модератор</button>
+    </header>
+
+    <section class="hero">
+      <h1>Центр поддержки</h1>
+      <p>Создайте тикет и мы вам поможем — быстро и удобно.</p>
+
+      <div class="card hero-panel">
+        <div class="row">
+          <div class="tile">
+            <div>
+              <div style="font-weight:700">Создать тикет</div>
+              <div class="meta" style="color:#a1a7b3">Откроется чат с модератором</div>
+            </div>
+            <button id="btnCreateTicket" class="btn btn-accent">Создать</button>
+          </div>
+          <div class="tile">
+            <div>
+              <div style="font-weight:700">Discord</div>
+              <div class="meta" style="color:#a1a7b3">Наш официальный сервер</div>
+            </div>
+            <a class="btn" href="https://discord.com" target="_blank" rel="noreferrer">Открыть</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat card">
+          <div class="stat-value">1–3 мин</div>
+          <div class="stat-label">Среднее ожидание ответа</div>
+        </div>
+        <div class="stat card">
+          <div class="stat-value">24/7</div>
+          <div class="stat-label">Мы на связи ежедневно</div>
+        </div>
+        <div class="stat card">
+          <div class="stat-value">Java / Bedrock</div>
+          <div class="stat-label">Поддерживаем обе версии</div>
+        </div>
+      </div>
+
+      <div class="section card">
+        <div class="section-title">Как это работает</div>
+        <div class="features">
+          <div class="feature">
+            <div class="feature-badge">1</div>
+            <div>
+              <div class="feature-title">Создайте тикет</div>
+              <div class="meta">Одним кликом — без регистрации</div>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-badge">2</div>
+            <div>
+              <div class="feature-title">Подключится модератор</div>
+              <div class="meta">Получите уведомление и начните чат</div>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-badge">3</div>
+            <div>
+              <div class="feature-title">Решим вопрос</div>
+              <div class="meta">Поделимся инструкцией или выполним действия за вас</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section card">
+        <div class="section-title">FAQ</div>
+        <div class="faq">
+          <details>
+            <summary>Нужно ли указывать личные данные?</summary>
+            <p>Нет. Достаточно описать проблему. При необходимости модератор уточнит детали.</p>
+          </details>
+          <details>
+            <summary>Сколько хранится переписка?</summary>
+            <p>История сохраняется локально на сервере поддержки и используется только для улучшения сервиса.</p>
+          </details>
+          <details>
+            <summary>Можно ли закрыть тикет самостоятельно?</summary>
+            <p>Да. Напишите модератору «Закрыть тикет», и он завершит обращение.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="footer-hint">Нужна помощь быстрее? Создайте тикет — обычно отвечаем за пару минут.</div>
+    </section>
+  </div>
+
+  <div id="modal" class="modal-backdrop">
+    <div class="card modal">
+      <h3 class="modal-title">Вход модератора</h3>
+      <div class="modal-row">
+        <input id="code" class="input" placeholder="Код модератора" />
+        <input id="displayName" class="input" placeholder="Ваш ник (необязательно)" />
+        <div style="display:flex; gap:10px; justify-content:flex-end; margin-top:6px;">
+          <button id="cancelModal" class="btn">Отмена</button>
+          <button id="submitCode" class="btn btn-accent">Продолжить</button>
+        </div>
+      </div>
+      <div id="modalError" style="color:#fca5a5; margin-top:10px; display:none"></div>
+    </div>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
+</html> 

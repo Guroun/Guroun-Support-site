@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Тикет — Поддержка</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="brand-logo"></div>
+        <div class="brand-title">Поддержка</div>
+      </div>
+      <a class="btn" href="/">На главную</a>
+    </header>
+
+    <div class="card chat">
+      <div class="chat-header">
+        <div>
+          <div style="font-weight:700">Чат с поддержкой</div>
+          <div id="status" class="meta" style="color:#a1a7b3">Ожидание модератора…</div>
+        </div>
+        <div id="ticketIdView" class="badge"></div>
+      </div>
+
+      <div id="log" class="chat-log"></div>
+
+      <form id="form" class="chat-input chat-input-attachments">
+        <input id="input" class="input" placeholder="Ваше сообщение" autocomplete="off" disabled />
+        <input id="fileInput" type="file" style="display:none" />
+        <button id="uploadBtn" type="button" class="btn icon-btn" title="Прикрепить файл">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.5 6.5v9a4.5 4.5 0 1 1-9 0v-10A3.5 3.5 0 0 1 11 2.5a3.5 3.5 0 0 1 3.5 3.5v9a2 2 0 1 1-4 0v-8"/></svg>
+        </button>
+        <button id="sendBtn" class="btn btn-accent" disabled>Отправить</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="dropzone" class="dropzone"><div class="dz-inner"><div class="dz-title">Перетащите файлы сюда</div><div class="dz-sub">и они появятся в чате</div></div></div>
+  <div id="lightbox" class="lightbox"><img alt="preview" /><button class="btn lightbox-close">Закрыть</button></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/ticket.js"></script>
+</body>
+</html> 
